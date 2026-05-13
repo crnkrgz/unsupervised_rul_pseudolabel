@@ -1,0 +1,42 @@
+# Veri dosyaları
+data/
+*.zip
+
+# Çıktı dosyaları (sonuçlar repo'da olmasın, kullanıcı kendisi üretsin)
+results/
+*.png
+*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Tez dosyaları (kod repo'suna gerekmez)
+*.docx
+*.pdf
